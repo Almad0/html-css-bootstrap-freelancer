@@ -1,3 +1,9 @@
+body [class*="col-"] {
+  height: 200px;
+  background-color: pink;
+  border: 1px solid red;
+}
+
 .navbar{
   background-color: lightblue;
 }
