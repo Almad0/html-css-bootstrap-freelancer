@@ -1,9 +1,18 @@
 body [class*="col-"] {
-  height: 200px;
-  background-color: pink;
+  height: 150px;
   border: 1px solid red;
 }
 
-.navbar{
-  background-color: lightblue;
+
+
+.bg-info{
+  background-color: #2C3E50;
+}
+
+.bg-primary{
+  background-color: #1ABC9C;
+}
+
+.blue {
+  background-color: #3A546D;
 }
