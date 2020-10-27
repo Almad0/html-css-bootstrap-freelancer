@@ -1,18 +1,36 @@
 body [class*="col-"] {
-  height: 150px;
+  height: 40px;
   border: 1px solid red;
 }
 
 
-
+/* COLORS */
 .bg-info{
   background-color: #2C3E50;
 }
-
 .bg-primary{
   background-color: #1ABC9C;
 }
-
-.blue {
+.bg_blue {
   background-color: #3A546D;
+}
+.white{
+  color: white;
+}
+
+.separator{
+  text-align: center;
+}
+.separator span {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 1rem;
+}
+.hr {
+  width: 15%;
+  border-bottom: 4px solid black;
+}
+
+.jumbotron, #portfolio, #about:not(p), #contact:not(.form-group), footer{
+  text-align: center;
 }
