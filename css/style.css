@@ -3,18 +3,29 @@
   border: 1px solid red;
 } */
 
-
-/* .text-center
-
-NON MODIFICHIAMO LE CLASSI Bootstrap */
-
+/* UTILITY */
 .container-sm{
   width:70%;
   margin: auto;
 }
 
-.text_uppercase{
-  text-transform: uppercase;
+/* SEPARATOR */
+.separator .icon{
+  font-size: 32px;
+}
+.separator{
+  text-align: center;
+  margin: 10px 0;
+}
+.separator span {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 1rem;
+}
+.hr {
+  width: 15%;
+  border-bottom: 4px solid;
+  margin: 0 20px;
 }
 
 /* COLORS */
@@ -31,17 +42,13 @@ NON MODIFICHIAMO LE CLASSI Bootstrap */
   color: white;
 }
 
+/* HEADER */
 .navbar-default .navbar-nav > li > a, .navbar-default .navbar-header > a{
   color: white;
 }
-
-
-/* #portfolio, #about:not(p), #contact:not(.form-group), footer{
-  text-align: center;
-} */
-
-
-
+.navbar-default .navbar-header > a:hover , .navbar-default .navbar-nav > li > a:hover{
+  color: #1ABC9C;
+}
 
 .jumbotron h1{
   font-size: 5rem;
@@ -53,30 +60,24 @@ NON MODIFICHIAMO LE CLASSI Bootstrap */
 .jumbotron{
   height: 500px;
 }
-.separator .icon{
- font-size: 32px;
-}
-.separator{
-  text-align: center;
-}
-.separator span {
-  display: inline-block;
-  vertical-align: middle;
-  margin-bottom: 1rem;
-}
-.hr {
-  width: 15%;
-  border-bottom: 4px solid;
-  margin: 0 10px;
+
+/* PORTFOLIO */
+#portfolio{
+  padding-bottom:  40px;
 }
 
+#about p{
+  text-align: left;
+}
 
+#about .btn{
+  margin: 20px 0;
+  border: 1px solid white;
+}
 
-
-
-
-
-
+#about .btn:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
 
 
 
