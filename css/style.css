@@ -1,14 +1,27 @@
-body [class*="col-"] {
+/* body [class*="col-"] {
   height: 40px;
   border: 1px solid red;
+} */
+
+
+/* .text-center
+
+NON MODIFICHIAMO LE CLASSI Bootstrap */
+
+.container-sm{
+  width:70%;
+  margin: auto;
 }
 
+.text_uppercase{
+  text-transform: uppercase;
+}
 
 /* COLORS */
-.bg-info{
+.bg_darkblue{
   background-color: #2C3E50;
 }
-.bg-primary{
+.bg_green{
   background-color: #1ABC9C;
 }
 .bg_blue {
@@ -18,6 +31,31 @@ body [class*="col-"] {
   color: white;
 }
 
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-header > a{
+  color: white;
+}
+
+
+/* #portfolio, #about:not(p), #contact:not(.form-group), footer{
+  text-align: center;
+} */
+
+
+
+
+.jumbotron h1{
+  font-size: 5rem;
+}
+.jumbotron img{
+  height: 200px;
+  margin-top: 50px;
+}
+.jumbotron{
+  height: 500px;
+}
+.separator .icon{
+ font-size: 32px;
+}
 .separator{
   text-align: center;
 }
@@ -28,9 +66,20 @@ body [class*="col-"] {
 }
 .hr {
   width: 15%;
-  border-bottom: 4px solid black;
+  border-bottom: 4px solid;
+  margin: 0 10px;
 }
 
-.jumbotron, #portfolio, #about:not(p), #contact:not(.form-group), footer{
-  text-align: center;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+/* FINE */
